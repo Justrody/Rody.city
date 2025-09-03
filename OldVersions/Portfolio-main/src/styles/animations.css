@@ -1,0 +1,89 @@
+@keyframes slide-up {
+    0%, 33.33% {
+      transform: translateY(0rem);
+    }
+    33.33%, 50% {
+        transform: translateY(-3rem);
+    }
+    66.66%, 100% {
+        transform: translateY(-6rem);
+    }
+  }
+  @keyframes slide-up2 {
+    0%, 33.33% {
+      transform: translateY(0rem);
+    }
+    33.33%, 50% {
+        transform: translateY(-5rem);
+    }
+    66.66%, 100% {
+        transform: translateY(-11rem);
+    }
+  }
+  @keyframes slide-up-mobile {
+    0%, 33.33% {
+      transform: translateY(0rem);
+    }
+    33.33%, 50% {
+        transform: translateY(-2.5rem);
+    }
+    66.66%, 100% {
+        transform: translateY(-5rem);
+    }
+  }
+  @keyframes rotation {
+    0%, 33.33% {
+      transform:rotate(0deg);
+    }
+    0%, 100% {
+        transform:rotate(-30deg);
+    }
+  }
+  @keyframes growing {
+    0%, 33.33% {
+      transform:scale(1.0);
+    }
+    0%, 100% {
+      transform:scale(1.1);
+    }
+  }
+  @keyframes start {
+    from {
+      opacity: 0;
+      transform: translateY(-200px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes startModal {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  @keyframes entry {
+    0%, 33.33% {
+      opacity: 0;
+      transform: translateY(800px);
+    }
+    33.33%, 100% {
+      opacity: 1;
+      transform: translateY(-5px);
+    }
+  }
+  @keyframes keyframes-fill {
+    0% {
+      transform: rotate(-180deg) scale(0);
+      opacity: 0;
+    }
+  
+    50% {
+      transform: rotate(-10deg) scale(1.2);
+    }
+  }

@@ -1,0 +1,108 @@
+.btn-full {
+    padding: .6rem 1rem;
+    background-color: var(--strokeLight);
+    transition: .2s;
+}
+.btn-full:hover {
+    padding: .6rem 2rem;
+    color: var(--h1-dark);
+    border: 1px solid var(--stroke);
+    background-color: var(--strokedark);
+}
+.btn-void {
+    color: var(--h1-dark);
+    padding: .6rem 1rem;
+    border: 1px solid var(--strokeLight-glass);
+    transition: .2s;
+}
+.btn-void:hover {
+    color: var(--h1-light);
+    background-color: var(--strokeLight);
+    padding: .6rem 2rem;
+}
+.profilePic {
+    border: 2px solid var(--h1-dark);
+    border-radius: 100%;
+    width: 6rem;
+    height: 6rem;
+   object-fit: cover;
+}
+.skill {
+    cursor: pointer;
+    transition: .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .4rem;
+    font-weight: bolder;
+    border-radius: 1rem;
+    border: 1px solid var(--stroke);
+    padding: .3rem .8rem;
+    background-color: var(--bgLight);
+    img {
+        object-fit: cover;
+        width: 1rem;
+        height: 1rem;
+    }
+}
+.skill:hover {
+    transform: scale(1.1);
+    color: var(--h1-dark);
+    filter: brightness(5);
+    img {
+        filter: brightness(100);
+    }
+}
+.separator-vertical {
+    background-color: var(--stroke);
+    width: 1px;
+    height: 100%;
+}
+.glass-bg {
+    background: rgba(27, 35, 57, 0.285);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid var(--stroke-light);
+}
+.code-font {
+    font-family: "Space Mono", monospace;
+}
+.modal-tools {
+    animation: startModal .2s ease-in-out;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    margin: 1rem;
+    position: fixed;
+    top: 2.5rem;  
+    left: 740px;
+    gap: .4rem;
+    z-index: 80;
+    border-radius: .5rem;
+    height: 250px;
+    width: 300px;
+    border: 1px solid var(--stroke);
+    background-color: var( --bg-glass);
+    text-align: center;
+    a {
+        padding: .5rem;
+        width: 100%;
+        cursor: pointer;
+        color: var(--h1-dark);
+    }
+    a:hover {
+        color: var( --h1-dark);
+        background-color: var( --stroke-secondary);
+    }
+}
+.icon {
+    img {
+        margin-right: .5rem;
+        max-width:2rem;
+        height: 2rem;
+    }
+}
+.font-pixel {
+    font-family: 'superhelio _regular', sans-serif;
+}

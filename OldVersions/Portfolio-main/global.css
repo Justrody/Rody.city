@@ -1,0 +1,107 @@
+@import url(src/styles/nav.css);
+@import url(src/styles/landing.css);
+@import url(src/styles/animations.css);
+@import url(src/styles/misc.css);
+@import url(src/styles/server.css);
+@import url(src/styles/draw.css);
+@import url(src/styles/linktree.css);
+@import url(src/styles/mobile.css);
+@import url(src/styles/blog.css);
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+:root {
+    --background: #000000;
+    --backgroundLight: #EEF0F4;
+
+    --stroke: #191922;
+    --strokeLight: #D6DAE1;
+    --strokeLight-glass: #d6dae186;
+
+    --bg-secondary: #13131a;
+    --bg-secoondaryLight: #C5CAD3;
+
+    --stroke-secondary: #1b1b24;
+    --stroke-secondaryLight: #C5CAD3;
+
+    --hilight: #528cff;
+    --hilightLight: #E5EEFF;
+
+    --bg-glass: #0e11168c;
+ 
+    --brand-color: #375FFF;
+    --game-color: #13131a;
+
+    --h1-dark: #F4F4FF;
+    --h1-light: #0E0E10;
+
+    --h2-dark: #C4C4CC;
+    --h2-light: #000000;
+
+    --h3: #8B8E95;
+
+    --navbar: #55575c;
+    --hilight-text: #326CFF;
+
+    --font-xxl: 3.6rem;
+    --font-xl: 1.7rem;
+    --font-lg: 1.5rem;
+    --font-md: 1rem;
+    --font-sm: .8rem;
+}
+
+html {
+    font-family: geist;
+    background-color: var(--background);
+}
+
+.bg-01 {
+    background-size: repeat ;
+    background-image: url(src/assets/backgrounds/lading02.png);
+}
+.bg-02 {
+    background-size: cover;
+    background-image: url(src/assets/backgrounds/064d22a23b1a0c71dfa1ad1c83614676.jpg);
+}
+.bg-03 {
+    background-size: cover;
+    background-image: url(src/assets/backgrounds/6e66f9ac532cec821bfbfffcdd662628.gif);
+}
+.bg-04 {
+    background-size: cover;
+    background-image: url(src/assets/backgrounds/bg-pixel.png);
+}
+.bg-05 {
+    background-size: cover;
+    background-image: url(src/assets/backgrounds/bg04.png);
+}
+.hide {
+ display: none;
+}
+.show {
+ display: block;
+}
+
+footer {
+    border-top: 1px solid var(--stroke);
+    text-align: center;
+    h1 {
+        font-weight: bolder;
+        font-size: var(--font-xl);
+        color: var(--h1-dark);
+      }
+      span {
+        color: var(--hilight-text);
+      }
+    h2 {
+        font-size: var(--font-xl);
+        color: var(--h2-dark);
+    }
+    p {
+        font-size: var(--font-md);
+        color: var(--h2-dark);
+    }
+}

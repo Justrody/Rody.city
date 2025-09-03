@@ -1,0 +1,116 @@
+.banner {
+    width: 650px;
+    margin: 5rem;
+}
+.frame-discord {
+    height: 525px;
+    width: 290px;
+    border-left: 3px solid var(--brand-color);
+    
+}
+#discord {
+    background-color: var(--brand-color);
+    margin-left: .2rem;
+    margin-top: .2rem;
+    height: 520px;
+    width: 280px;
+    overflow: hidden;
+}
+#minigames {
+    margin-top: .2rem;
+    background-color: var(--bg-secondary);
+    width: 1010px;
+    height: 600px;
+    div {
+        margin-top: .5rem;
+        background-color: var(--background);
+        width: 990px;
+        height: 460px;  
+    }
+}
+#minigame-list {
+   li {
+    margin: 1rem;
+    height: 9rem;
+    border: 1px solid var(--stroke);
+    background-color: var(--bg-secondary);
+    transition: .2s;
+    padding: .5rem;
+    display: flex;
+    flex-direction: column;
+    h1 {
+        color: var(--h1-dark);
+        font-size: var(--font-lg);
+    }
+    h2 {
+        color: var(--h2-dark);
+        font-size: var(--font-md);
+    }
+    p {
+        color: var(--h2-dark);
+        font-size: var(--font-xs);
+    }
+    div {
+        padding: .5rem;
+        width: 100%;
+        color: var(--stroke);
+    }
+   } 
+   li:hover {
+    border: 1px solid var(--h1-dark);
+   }
+}
+#staff {
+    margin-right: .2rem;
+    margin-top: .2rem;
+    background-color: var(--bg-secondary);
+    width: 300px;
+    height: 520px;
+    div {
+        border: 2px solid var(--stroke);
+        margin-top: .5rem;
+        width: 94%;
+        height: 460px;
+        background-color: var(--background);
+    }
+    .staff-member {
+        margin-top: .5rem;
+        padding: .2rem;
+        display: flex;
+        img {
+            margin-right: .2rem;
+            width: 1.5rem;
+            height: 1.5rem;
+        }
+    }
+    .role-owner {
+        color: var(--brand-color);
+    }
+    .role-admin {
+        color: red;
+    }
+}
+.server {
+    margin-top: -20rem;
+    width: 1600px;
+    h1 {
+        font-weight: bolder;
+        font-size: var(--font-xxl);
+        color: var(--h1-dark);   
+      }
+    h3 {
+      font-size: var(--font-lg);
+      color: var(--h1-dark); 
+    }
+    img {
+        width: 250px;
+    }
+    h2 {
+        font-size: var(--font-xl);
+        color: var(--h2-dark);
+    }
+    p {
+        font-size: var(--font-md);
+        color: var(--h2-dark);
+    }
+}

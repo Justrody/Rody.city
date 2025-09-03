@@ -1,0 +1,140 @@
+#introduction {
+    h1 {
+        font-weight: bolder;
+        font-size: var(--font-xxl);
+        color: var(--h1-dark);
+        .anim-container {
+          overflow: hidden;
+          height: 5rem;
+        }
+      }
+    
+      .slide-up {
+          animation: slide-up2 6s ease infinite; 
+        }
+      
+    
+      span {
+        color: var(--h1-dark);
+      }
+      .banner {
+        animation: rotation 10s ease;
+        margin-top: -6rem;
+        width: 400px;
+        
+      }
+      .banner-mobile {
+        display: none;
+        animation: rotation 10s ease;
+        width: 240px;
+    }
+    h3 {
+      font-size: var(--font-lg);
+      color: var(--h1-dark); 
+    }
+    img {
+        width: 250px;
+    }
+    h2 {
+        font-size: var(--font-xl);
+        color: var(--h2-dark);
+    }
+    p {
+        font-size: var(--font-md);
+        color: var(--h2-dark);
+    }
+
+}
+.stripe-separator {
+    margin-top: -2rem;
+}
+#about {
+    h1 {
+        font-weight: bolder;
+        font-size: var(--font-xxl);
+        color: var(--h1-dark);
+      }
+    h2 {
+        font-size: var(--font-xl);
+        font-weight: bold;
+        color: var(--h1-dark);
+    }
+    p {
+        font-size: var(--font-md);
+        color: var(--h2-dark);
+    }  
+}
+
+#projects {
+    text-align: center;
+    h1 {
+        font-weight: bold;
+        font-size: var(--font-xl);
+        color: var(--h1-dark);
+        .anim-container {
+          overflow: hidden;
+          height: 3rem;
+        }
+      }
+      
+    background-color: var(--materialDarker-bg);
+    .card {
+      transition: .2s;
+      border-radius: 1rem;
+      background-color: var(--bg-glass);
+      width: 500px;
+      height: 360px;
+      display: flex;
+      align-items: center;
+      text-align: left;
+      flex-direction: column;
+      color: var(--h2-dark);
+      border: 1px solid var(--stroke);
+      span {
+        cursor: pointer;
+        transition: .3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: .4rem;
+        font-weight: bolder;
+        border-radius: 1rem;
+        border: 1px solid var(--stroke);
+        padding: .3rem .8rem;
+        img {
+            object-fit: cover;
+            width: 1rem;
+            height: 1rem;
+        }
+    }
+      .card-frame {
+        width: 98%;
+        margin: .5rem;
+        border-radius: 1rem;
+        height: 230px;
+        img {
+          border-radius: 1rem;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .card-btn {
+        margin-top: 1rem;
+        .btn {
+          border-radius: .5rem;
+          padding: .5rem 5rem;
+          color: var(--h1-light);
+          background-color: var(--backgroundLight);
+          transition: .2s;
+        }
+        .btn:hover {
+          background-color: var(--h2-dark);
+        }
+      }
+    }
+    
+    .card:hover {
+      transform: scale(1.08);
+    }
+    
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../global.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/superhelio" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/higherpixels" rel="stylesheet">
+
+    <title>Ctrlrody</title>
+</head>
+<body class="">
+    <header class="navbarAesthetic z-50 fixed w-full flex items-center justify-center">
+        <nav class=" flex items-center justify-around">
+            <ul class="rounded-full">
+                <li class="logo"><a href=""><img src="assets/icons/c (2).svg" alt="ctrllogo"></a>CTRLRODY</li>
+                <li class="separator"></li>
+                <li class="btn-nav  navbar-hide-mobile"><a href="../index.html">~/.Portfolio</a></li>
+                <li class="btn-nav list-items-modal"><button class="flex" type="button"><img src="assets/icons/hexagon.svg" alt=""></button></li>
+            </ul>
+            <ul class="rounded-full navbar-section-hide-mobile">
+                <li class="btn-nav selected"><a href="draw.html">drawn</a></li>
+                <li class="btn-nav"><a href="blog.html">/Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="modal-tools hidden transition-all scale-95 duration-300 ">
+        <a href="src/blog.html">blog</a>
+        <a href="src/draw.html">Sorteio</a>
+        <a href="src/linktree.html">linktree</a>
+        <a href="src/server.html">Server</a>
+        <a href="https://www.figma.com/design/7s8CBBz7nCoZUEPs9RXWJb/CtrlUI?node-id=0-1&p=f&t=wEud0t7bVVQvAP15-0">CtrlUI</a>
+    </div>
+    <main  id="introduction" class="flex flex-wrap gap-24 flex-warp items-center justify-center h-screen bg-01">
+        <section>
+            <div class="flex items-center justify-center">
+                <div>
+                    <h1 class="mobile-gigant-text">Precisa fazer um <br> <strong>sorteio</strong>?</h1>
+                </div>
+            </div>
+            <div class=" mt-10">
+                <div>
+                    <span class=""><strong>Como funciona o sorteador de números?</strong></span>
+                </div>
+                <p>
+                    O sorteador utiliza um algoritmo de geração aleatória para criar <br>
+                    números dentro do intervalo especificado pelo usuário.
+                </p>
+            </div>
+        </section>
+        <section id="draw-inputs">
+            <div>
+                <div>
+                    <h2 class="">    Quero sortear:</h2>
+                    <p>
+                        defina o intervalo e a quantidade de números,<br> clique em "Sortear" 
+                        e veja os resultados na tela que seguinte.
+                    </p>
+                </div>
+                <div>
+                    <form class="drawn-style flex items-center justify-between gap-5 mt-4" action="">
+                        <fieldset class="flex flex-col items-center justify-center">
+                            <h3>Numeros</h3>
+                            <input id="number-drawn-total" type="number">
+                        </fieldset>
+                        <fieldset class="flex flex-col items-center justify-center">
+                            <h3>de</h3>
+                            <input id="number-drawn-min" type="number">
+                        </fieldset>
+                        <fieldset class="flex flex-col items-center justify-center">
+                            <h3>ate</h3>
+                            <input id="number-drawn-max" type="number">
+                        </fieldset>
+                    </form>
+                    <button class="w-full first-drawn-button button-style">Sortear</button>
+                </div>
+            </div>
+        </section>
+        <section id="draw-result" class="hide drawn-style">
+            <div class="result">
+              <h1>Resultado</h1>
+              <p>Resultado do sorteio</p>
+              <div class="flex items-center justify-between gap-5 mt-4" id="draw-numbers-container">
+              </div>
+            </div>
+            <button class="w-full drawn-again-button button-style mt-10" >Sortear novamente</button>
+          </section>
+    </main>
+    <footer>
+        <section class="flex w-full p-5 items-center justify-around">
+            <div>
+                <h1>Made with love</h1>
+                <p>by CtrlRody/Eorody</p>
+            </div>
+            <div>
+                <h1>Informações de contato</h1>
+                <p><span>Comercial@ctrlrody.com</span></p>
+            </div>
+            <div>
+                <h1>Saiba mais</h1>
+                <p><span><a href="">Linktree</a></span></p>
+            </div>
+        </section>
+        <section>
+            <div class="p-8 flex items-center justify-center">
+                <h2 class="ml-24"> Front-end e identidade visual desenvolvidos por <span><a href="">@ctrlrody</a></span></h2>
+            </div>
+        </section>
+    </footer>
+</body>
+<script src="../scripts.js"></script>
+</html>

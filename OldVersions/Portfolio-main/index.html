@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="global.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/superhelio" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/higherpixels" rel="stylesheet">
+
+    <title>Ctrlrody</title>
+</head>
+<body class="">
+    <header class="navbarAesthetic z-50 fixed w-full flex items-center justify-center">
+        <nav class=" flex items-center justify-around">
+            <ul class="rounded-full">
+                <li class="logo"><a href=""><img src="src/assets/icons/c (2).svg" alt="ctrllogo"></a>CTRLRODY</li>
+                <li class="separator"></li>
+                <li class="btn-nav selected navbar-hide-mobile"><a href="index.html">~/.Portfolio</a></li>
+                <li class="btn-nav list-items-modal"><button class="flex" type="button"><img src="src/assets/icons/hexagon.svg" alt=""></button></li>
+            </ul>
+            <ul class="rounded-full navbar-section-hide-mobile">
+                <li class="btn-nav"><a href="src/linktree.html">Linktree</a></li>
+                <li class="btn-nav"><a href="src/blog.html">/Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="modal-tools hidden transition-all scale-95 duration-300 ">
+        <a href="src/blog.html">blog</a>
+        <a href="src/draw.html">Sorteio</a>
+        <a href="src/linktree.html">linktree</a>
+        <a href="src/server.html">Server</a>
+        <a href="https://www.figma.com/design/7s8CBBz7nCoZUEPs9RXWJb/CtrlUI?node-id=0-1&p=f&t=wEud0t7bVVQvAP15-0">CtrlUI</a>
+    </div>
+    <main class="flex flex-col items-center justify-center">
+        <section id="introduction" class="flex items-center justify-center h-screen bg-01">
+            <div class="flex flex-wrap">
+                <div>
+                    <img class="banner" src="src/assets/icons/c (2).svg" alt="">
+                </div>
+                <div class="container-mobile">
+                    <img class="banner-mobile" src="src/assets/icons/c (2).svg" alt="">
+                    <div>
+                        <h1 class="flex flex-col gap-2 ">
+                            Explore Tools and resources for 
+                           <div class="anim-container flex">
+                            <div class="flex flex-col slide-up">
+                                <span>front-end,</span>
+                                <span>back-end,</span>
+                                <span>ui/ux __ </span>
+                              </div>
+                              and more.
+                           </div>
+                          </h1>
+                    </div>
+                      <div class="flex gap-2 mt-9 ">
+                        <a href="#about" class="btn-void rounded-xl " href="">Saiba mais</a>
+                        <a href="#" class="btn-full rounded-xl " href="">:D</a>
+                      </div>
+                </div>
+            </div>
+        </section>
+        <section id="about" class="  flex flex-col gap-5 mb-24 p-10 rounded-xl">
+            <div class=" ">
+                <div  class="flex flex-wrap items-center mobile-alight">
+                    <img class="profilePic" src="src/assets/icons/profile.jpg" alt="Icon">
+                    <div class="p-5">
+                        <h2>Hey, I'm rodolfo R</h2>
+                        <p class="code-font">
+                            I'm a front-end developer with a passion for cyber security and design. <br> I'm currently studyng on rocketseat.
+                        </p>
+                    </div>
+                </div>
+                <div id="skills">
+                    <div class="flex flex-wrap gap-5 items-center justify-center mt-5">
+                        <p class="skill"><img src="src/assets/icons/skills_icon/icons8-html-48.png" alt="html">Html</p>
+                        <p class="skill"><img src="src/assets/icons/skills_icon/icons8-css-48.png" alt="css">tailwindCss</p>
+                        <p class="skill"><img src="src/assets/icons/skills_icon/icons8-js-48.png" alt="javascript">Javascript</p>
+                        <p class="skill"><img src="src/assets/icons/skills_icon/icons8-react-native-24.png" alt="react">React</p>
+                        <p class="skill"><img src="src/assets/icons/skills_icon/icons8-nextjs-48.png" alt="nextjs">NextJs</p>
+                        <p class="skill"><img src="src/assets/icons/skills_icon/icons8-py-48.png" alt="python">Python</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="p-5 mt-10">
+                <h2>
+                   this website isnt just an portfolio.
+                </h2>
+                <br>
+                <p class="code-font" >
+                    its a place where you can find tools and resources to help you in your journey as a developer. <br>
+                    here you will can learn about front-end, back-end, design and much more. <br>
+                    if you want visit my blog for tutorials and tips, you can find it here. <br>
+                </p>
+            </div>
+        </section>
+        <section id="projects" class="flex flex-wrap items-center justify-center gap-8 mb-40 ">
+            <section class="card">
+                <div class="card-frame">
+                    <img src="src/assets/backgrounds/bg04.png" alt="">
+                </div>
+                <div class="w-full p-4">
+                    <div class="flex w-full items-center justify-between">
+                        <p>Project_name </p>
+                        <div class="flex gap-3">
+                            <span>Rocketseat</span>
+                            <span>front-end</span>
+                        </div>
+                    </div>
+                    <div class="card-btn">
+                        <a class="btn glow" href="#">Source</a>
+                    </div>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card-frame">
+                    <img src="src/assets/backgrounds/bg04.png" alt="">
+                </div>
+                <div class="w-full p-4">
+                    <div class="flex w-full items-center justify-between">
+                        <p>Project_name </p>
+                        <div class="flex gap-3">
+                            <span>Rocketseat</span>
+                            <span>front-end</span>
+                        </div>
+                    </div>
+                    <div class="card-btn">
+                        <a class="btn glow" href="#">Source</a>
+                    </div>
+                </div>
+            </section>
+            <section class="card">
+                <div class="card-frame">
+                    <img src="src/assets/backgrounds/bg04.png" alt="">
+                </div>
+                <div class="w-full p-4">
+                    <div class="flex w-full items-center justify-between">
+                        <p>Project_name </p>
+                        <div class="flex gap-3">
+                            <span>Rocketseat</span>
+                            <span>front-end</span>
+                        </div>
+                    </div>
+                    <div class="card-btn">
+                        <a class="btn glow" href="#">Source</a>
+                    </div>
+                </div>
+            </section>
+            
+       </section>
+    </main>
+    <footer>
+        <section class="flex flex-wrap w-full p-5 items-center justify-around">
+            <div>
+                <h2><strong>Made with love</strong></h2>
+                <p>by CtrlRody/Eorody</p>
+            </div>
+            <div>
+                <h2><strong>Informações de contato</strong></h2>
+                <p><span>Comercial@ctrlrody.com</span></p>
+            </div>
+            <div>
+                <h2><strong>Saiba mais</strong></h2>
+                <p><span><a href="">Linktree</a></span></p>
+            </div>
+        </section>
+        <section class="w-full">
+            <div class="p-8 flex items-center text-center justify-center">
+                <p class="ml-24"> Front-end e identidade visual desenvolvidos por <span><a href="">@ctrlrody</a></span></p>
+            </div>
+        </section>
+    </footer>
+    
+</body>
+    <script src="scripts.js" defer></script>
+</html>

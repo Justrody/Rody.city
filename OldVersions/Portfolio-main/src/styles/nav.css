@@ -1,0 +1,97 @@
+.navbarAesthetic {
+    animation: start .5s ease-in-out;
+    margin-top: .5rem;
+    nav {
+        font-family: "Geist", sans-serif;
+        width: 50%;
+    }
+    .mobile-list-items-modal {
+        display: none;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: .2rem .5rem;
+        border: 1px solid var(--stroke);
+        background-color: var(--bg-glass);
+    }
+    .btn-nav{
+        padding: .4rem;
+        transition: .2s;
+        color: var( --h2-dark);
+        padding: .3rem 1rem;
+        margin: .2rem;
+    }
+    .btn-nav:hover {
+        color: var( --h1-dark);
+        background-color: var( --stroke-secondary);
+        border-radius: 1rem;
+    }
+    .selected {
+        background-color: var( --stroke-secondary);
+        border-radius: 1rem;
+        padding: .3rem 1rem;
+    }
+    .logo {
+        display: flex;
+        align-items: center;
+        font-weight: bolder;
+        padding: .3rem 1rem;
+        color: var(--h1-dark);
+
+        img {
+            width: 2rem;
+        }
+    }
+    .separator {
+        background-color: var(--stroke);
+        height: 30px;
+        width: 1px;
+    }
+
+}
+.navbarGames {
+    padding: .2rem;
+    border: 1px solid var(--stroke);
+    background-color: var(--game-color);
+    .logo {
+        display: flex;
+        align-items: center;
+        font-weight: bolder;
+        padding: .3rem 1rem;
+        color: var(--h1-dark);
+
+        img {
+            width: 2rem;
+        }
+    }
+    .btn-nav{
+        padding: .4rem;
+        transition: .2s;
+        color: var( --h2-dark);
+        padding: .3rem 1rem;
+
+        background-color: var(--stroke);
+        border-bottom: 5px solid var(--background);
+    }
+    .btn-nav:hover {
+        margin-top: 3px;
+        background-color: var( --brand-color);
+        color: var( --h1-dark);
+        background-color: var( --stroke-secondary);
+        border-bottom: 2px solid var(--background);
+    }
+    .selected {
+        background-color: var( --stroke-secondary);
+        padding: .3rem 1rem;
+    }
+    #settings-area {
+        .settings {
+            img {
+                width: 50px;
+            }
+        }
+    }
+}

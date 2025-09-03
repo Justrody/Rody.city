@@ -1,0 +1,31 @@
+.blog-content {
+    width: 600px;
+    background-color: var(--bg-glass);
+    height: 100px;
+    border-radius: .5rem;
+    border: 1px solid var(--stroke);
+    transition: .2s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    div {
+        padding: .4rem;
+    }
+}
+.blog-content:hover {
+    filter: brightness(2);
+}
+#blog {
+    h1 {
+        font-size: var(--font-lg);
+        color: var(--h1-dark);
+    }
+    h2 {
+        font-size: var(--font-md);
+        color: var(--h1-dark);
+    }
+    p {
+        font-size: var(--font-md);
+        color: var(--h2-dark);
+    }
+}

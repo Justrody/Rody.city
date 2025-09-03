@@ -1,0 +1,56 @@
+#custom-bio {
+    padding: .5rem;
+    border-radius: 1rem;
+    h1 {
+        font-weight: bold;
+        color: var(--h1-dark);
+        font-size: var(--font-xl);
+      }
+      
+      p {
+        color: var(--h2-dark);
+      }
+      h2 {
+          font-weight: bold;
+          color: var(--h2-dark);
+          font-size: var(--font-md);
+      }
+      h3 {
+        font-weight: bold;
+        color: var(--h2-dark);
+        font-size: var(--font-md);
+    }
+    
+
+    .badges {
+        background: rgba(27, 35, 57, 0.285);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        border-radius: .5rem; 
+        .badge {
+            margin: .5rem;
+        }
+        img {
+            width: 1rem;
+        } 
+    }
+    .social {
+        background: rgba(27, 35, 57, 0.285);
+        backdrop-filter: blur(15px);
+        -webkit-backdrop-filter: blur(15px);
+        padding: 1rem;
+        border-radius: .5rem;
+        transition: ease .3s;
+        img {
+            object-fit: cover;
+            width: 1.2rem;
+        }
+    }
+    .social:hover {
+        color: var( --text-darker);
+        background-color: var(--h1-dark);
+        img {
+            filter: invert(100%);
+        }
+    }
+}

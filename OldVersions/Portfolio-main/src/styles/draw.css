@@ -1,0 +1,43 @@
+.drawn-style {
+    width: 300px;
+    height: 150px;
+    input {
+        text-align: center;
+        padding: 1rem;
+        background-color: var(--background);
+        border: 1px solid var(--stroke);
+        border-radius: .5rem;
+        margin: .5rem;
+        width: 100px;
+        color: var(--h1-dark);
+        font-weight: bolder;
+        appearance: textfield;
+    }
+}
+.result-style {
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: var(--background);
+    border: 1px solid var(--stroke);
+    border-radius: .5rem;
+    margin: .5rem;
+    width: 100px;
+    color: var(--h1-dark);
+    font-weight: bolder;
+    appearance: textfield;
+}
+.drawn-icon {
+    max-width: 100px;
+}
+
+.button-style {
+    background-color: var(--h1-dark);
+    color: var(--h1-light);
+    margin: 1rem;
+    height: 3rem;
+    border-radius: .5rem;
+    transition: .2s;
+}
+.button-style:hover {
+    background-color: var(--h2-dark);
+}
