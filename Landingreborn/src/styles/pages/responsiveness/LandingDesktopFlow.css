@@ -255,6 +255,7 @@
                 font-size: var(--font-sm);
             }
             a {
+                background-color: var(--white-text);
                 padding: .3rem 2rem;
                 transition: .2s;
             }
