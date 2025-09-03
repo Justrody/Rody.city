@@ -1,0 +1,91 @@
+@import url(pages/animations.css);
+@import url(pages/responsiveness/pages/LinktreeFlow.css);
+@import url(global.css);
+body {
+    background-color: var(--background);
+}
+
+.bg-02 {
+    background-size: cover;
+    background-image: url(../assets/backgrounds/linktree.gif);
+}
+.linktree {
+    height: 300px;
+    width: 700px;
+    transition: .4s;
+        border: 1px solid var(--stroke-glass);
+        background-color: var( --background-glass);
+        box-shadow: 0 4px 30px rgba(8, 25, 39, 0.349);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(6px);
+        border-radius: 2rem;
+        h1 {
+            font-weight: bolder;
+            font-size: var(--font-md);
+            color: var(--white-text);
+        }
+        p {
+            color: var(--gray-text);
+        }
+        img {
+            border-radius: 100%;
+            width: 5rem;
+        }
+        .tech {
+            margin: .2rem;
+            padding: .2rem 1rem;
+            border-radius: 2rem;
+            border: 1px solid var(--stroke-glass);
+            background-color: var( --background-glass);
+            box-shadow: 0 4px 20px rgba(17, 26, 34, 0.13);
+            -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(6px); 
+            transition: .2s;
+        }
+        .tech:hover {
+            border: 1px solid var(--stroke-glass);
+            color: var(--white-text);
+            background-color: var(--blue-light);
+            transform: scale(1.05);
+        }
+}
+.linktree:hover  {
+    transform: scale(1.2);
+}
+
+#socials {
+    margin-top: 1rem;
+    a {
+        padding: .5rem 1rem;
+        border-radius: .5rem;
+        border: 1px solid var(--stroke-glass);
+        background-color: var( --background-glass);
+        box-shadow: 0 4px 30px rgba(8, 25, 39, 0.349);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(6px);
+        transition: .2s;
+        img {
+            filter: invert(100);
+            transition: .2s;
+            width: 1.2rem;
+            border-radius: 0;
+        }
+    }
+    a:hover {
+        background-color: var(--brand-color);
+        img {
+            filter: invert(0);
+        }
+    }
+}
+#views-container {
+    margin-top: .5rem;
+    #views {
+        margin-right: 1rem;
+        padding: .2rem 2rem;
+        border-radius: 1rem;
+        box-shadow: 0 4px 20px rgba(106, 122, 134, 0.158);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(6px);
+    }
+}

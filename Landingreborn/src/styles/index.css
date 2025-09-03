@@ -1,0 +1,9 @@
+@import url(pages/navigation.css);
+@import url(pages/landing.css);
+@import url(pages/animations.css);
+@import url(global.css);
+
+/*Responsiveness imports*/
+@import url(pages/responsiveness/LandingSmallFlow.css);
+@import url(pages/responsiveness/LandingMobileFlow.css);
+@import url(pages/responsiveness/LandingDesktopFlow.css);

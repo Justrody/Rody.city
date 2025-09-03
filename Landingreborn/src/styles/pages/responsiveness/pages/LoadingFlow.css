@@ -1,0 +1,52 @@
+@media screen and (max-width: 1190px) {
+    :root {
+
+            /*Backgrounds*/
+
+        --background: #000000;
+        --stroke: #16161a;
+
+        --background-glass: #11111600;
+        --stroke-glass: #afb2cc17 ;
+
+        --bg-card: rgb(14, 14, 17);
+        --stroke-card: rgb(16, 16, 20);
+
+        --brand-color: #fcfcfc;
+        --brand-color-glass: rgba(255, 255, 255, 0.466);
+
+        --hilight-text: #6d5dff;
+        --stroke-hilight: rgb(62, 98, 255);
+
+        /*texts*/
+        --white-text: #f3f2fae5;
+        --dark-text: #19191B;
+        --gray-text: #797B86;
+        --light-gray-text: #d3d3d3;
+
+        --light-text: #f0f0f0;
+        --glass-light-text: #f4f4ffa8;
+        --glass-dark-text: #0a0a0ea1;
+
+            /*Font scale*/
+
+        --font-md: 1rem;
+        --font-generic: 1rem;
+        --font-sm: 1rem;
+        --font-smm: .6rem ;
+
+        
+    }
+    body {
+      background-color: black;
+      color: var(--brand-color);
+      font-family: 'Consolas', monospace;
+      padding: .8rem;
+    }
+    .terminal {
+        font-size: var(--font-smm);
+    }
+    .mobile-ascii {
+        font-size: var(--font-smm) !important;
+    }
+}

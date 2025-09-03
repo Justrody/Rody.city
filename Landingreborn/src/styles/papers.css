@@ -1,0 +1,60 @@
+
+@import url(pages/papers-page.css);
+@import url(pages/navigation.css);
+@import url(pages/animations.css);
+@import url(pages/responsiveness/pages/PaperFlow.css);
+
+:root {
+
+        /*Backgrounds*/
+
+    --background: #000000;
+    --stroke: #16161a;
+
+    --background-glass: #11111600;
+    --stroke-glass: #afb2cc17 ;
+
+    --bg-card: rgb(14, 14, 17);
+    --stroke-card: rgb(16, 16, 20);
+
+    --brand-color: #fcfcfc;
+    --brand-color-glass: rgba(255, 255, 255, 0.466);
+
+    --hilight-text: #6d5dff;
+    --stroke-hilight: rgb(62, 98, 255);
+
+    /*texts*/
+    --white-text: #f3f2fae5;
+    --dark-text: #19191B;
+    --gray-text: #797B86;
+    --light-gray-text: #d3d3d3;
+
+    --light-text: #f0f0f0;
+    --glass-light-text: #f4f4ffa8;
+    --glass-dark-text: #0a0a0ea1;
+
+        /*Font scale*/
+
+    --font-xxl: 14rem ; 
+    --font-xl: 4rem ;
+    --font-lg: 4rem ;
+    --font-md: 1.5rem;
+    --font-generic: 1.2rem;
+    --font-sm: 1.2rem;
+    --font-smm: .5rem ;
+
+    
+}
+    body {
+        background-color: black;
+    }
+.bionix {
+    font-family: 'Bionix', sans-serif;
+}
+.geist {
+    font-family: "Geist", sans-serif;  
+}
+.pixel {
+    font-family: 'ProggyTinyTTSZ', sans-serif;
+    font-family: 'ProggyTinyTT', sans-serif;
+}
