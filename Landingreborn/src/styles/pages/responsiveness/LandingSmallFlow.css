@@ -1,0 +1,193 @@
+@media screen and (max-width: 980px ) {
+
+    :root {
+    --font-xxl: 6rem ; 
+    --font-xl: 6rem ;
+    --font-lg: 2rem ;
+    --font-md:1rem;
+    --font-generic: 1rem;
+    --font-sm: .8rem;
+    --font-smm: .8rem ;
+    }
+    .modern-navbar nav {
+            width:40% !important;
+    }
+    #introduction {
+        .fulltext {
+            font-size: var(--font-xxl);
+        }
+        .banner {
+            margin-top: -13.8rem;
+            margin-bottom: -33.2rem;
+            max-width: 700px;
+            z-index: 10;
+            animation: floating 10s infinite;
+        }
+        .stroketext {
+            z-index: 20;
+            font-size: var(--font-xxl);
+            color: #00000000;  
+        }
+    }
+    #about {
+        margin-top: -1rem;
+        max-width: 85%;
+    }
+    #projects {
+    
+    margin-top: 3rem;
+    .card-container {
+        width: 100%;
+    }
+    .card {
+        width: 350px;
+        height: 250px;
+        img {
+            width: 98%;
+                height: 100%;
+        }
+        h1 {
+            font-size: var(--font-generic);
+        }
+        p {
+            font-size: var(--font-sm);
+        }
+        a {
+            padding: .3rem 2rem;
+            transition: .2s;
+        }
+        a:hover {
+
+            padding: .3rem 3rem;
+        }
+    }
+    .card:hover {
+        transform: scale(1.05);
+    }
+}
+@media screen and (max-width: 870px ) {
+    :root {
+    --font-xxl: 5rem ; 
+    --font-xl: 5rem ;
+    --font-lg: 2rem ;
+    --font-md:1rem;
+    --font-generic: 1rem;
+    --font-sm: .8rem;
+    --font-smm: .8rem ;
+    }
+    .modern-navbar nav {
+            width: 45%;
+    }
+    #introduction {
+        .fulltext {
+            font-size: var(--font-xxl);
+        }
+        .banner {
+            margin-top: -16 .5rem;
+            margin-bottom: -18.2rem;
+            max-width: 500px;
+            z-index: 10;
+            animation: floating 10s infinite;
+        }
+        .stroketext {
+            font-size: var(--font-xxl);
+            color: #00000000;  
+        }
+    }
+    #about {
+        margin-top: -1rem;
+        max-width: 85%;
+    }
+    #projects {
+    
+        margin-top: 3rem;
+        .card-container {
+            width: 100%;
+        }
+        .card {
+            width: 320px;
+            height: 250px;
+            img {
+                width: 98%;
+                height: 100%;
+            }
+            h1 {
+                margin-left: .2rem;
+                font-size: var(--font-generic);
+            }
+            p {
+                margin-left: .2rem;
+                font-size: var(--font-sm);
+            }
+            a {
+                padding: .3rem 2rem;
+                transition: .2s;
+            }
+            a:hover {
+
+                padding: .3rem 3rem;
+            }
+        }
+    }
+}
+
+  
+@media screen and (max-width: 770px ) {
+    .modern-navbar nav {
+            width: 45% !important;
+    }
+    #introduction {
+        .fulltext {
+            font-size: var(--font-xxl);
+        }
+        .banner {
+            margin-top: -13.5rem;
+            margin-bottom: -18.2rem;
+            max-width: 500px;
+            z-index: 10;
+            animation: floating 10s infinite;
+        }
+        .stroketext {
+            font-size: var(--font-xxl);
+            color: #00000000;  
+        }
+    }
+    #about {
+        margin-top: -1rem;
+        max-width: 85%;
+    }
+    #projects {
+    
+        margin-top: 3rem;
+        .card-container {
+            width: 100%;
+        }
+        .card {
+            width: 320px;
+            height: 250px;
+            img {
+                width: 98%;
+                height: 100%;
+            }
+            h1 {
+                margin-left: .2rem;
+                font-size: var(--font-generic);
+            }
+            p {
+                margin-left: .2rem;
+                font-size: var(--font-sm);
+            }
+            a {
+                padding: .3rem 2rem;
+                background-color: var(--light);
+                transition: .2s;
+            }
+            a:hover {
+
+                padding: .3rem 3rem;
+            }
+        }
+    }
+}
+
+}

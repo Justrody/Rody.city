@@ -1,0 +1,51 @@
+@import url(pages/animations.css);
+
+@media screen and (max-width: 1000px) {
+    :root {
+        --font-xxl: 14rem ; 
+        --font-xl: 8rem ;
+        --font-lg: 4rem ;
+        --font-md: 2rem;
+        --font-generic: 1.4rem;
+        --font-sm: 1rem;
+        --font-smm: .8rem ;
+
+        
+    }
+    body {
+        background-color: var(--background);
+    }
+
+    .bg-02 {
+        background-size: cover;
+        background-image: url(../assets/backgrounds/linktree.gif);
+    }
+    .linktree {
+        width: 80% !important;
+    }
+}
+@media screen and (max-width: 500px) {
+    :root {
+        --font-xxl: 14rem ; 
+        --font-xl: 8rem ;
+        --font-lg: 4rem ;
+        --font-md: 2rem;
+        --font-generic: 1.4rem;
+        --font-sm: 1rem;
+        --font-smm: .8rem ;
+
+        
+    }
+    body {
+        background-color: var(--background);
+    }
+
+    .bg-02 {
+        background-size: cover;
+        background-image: url(../assets/backgrounds/linktree.gif);
+    }
+    .linktree {
+        width: 85% !important;
+        height: 60% !important;
+    }
+}
