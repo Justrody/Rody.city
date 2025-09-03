@@ -113,7 +113,7 @@
             object-fit: cover;
             border-radius: 2rem;
             width: 98%;
-            height: 320px;
+            height: 100%;
             filter: saturate(0);
             position: fixed;
         }

@@ -49,13 +49,13 @@
         }
         .card {
             width: 320px;
-            height: 300px;
+            height: 500px;
             img {
                 object-fit: cover;
                 border-radius: 2rem;
                 margin-top: -1.5rem;
                 width: 98%;
-                height: 120px;
+                height: 220px !important;
             }
             h1 {
                 margin-top: 1rem;
@@ -166,6 +166,9 @@
     margin-top: 1rem;
     .card-container {
         width: 100%;
+        img {
+            height: 100%;
+        }
     }
     }
 }

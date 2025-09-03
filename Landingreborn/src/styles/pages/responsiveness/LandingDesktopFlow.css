@@ -246,10 +246,6 @@
         .card {
             width: 350px;
             height: 250px;
-            img {
-                width: 98%;
-                height: 100px;
-            }
             h1 {
                 margin-left: .2rem;
                 font-size: var(--font-generic);

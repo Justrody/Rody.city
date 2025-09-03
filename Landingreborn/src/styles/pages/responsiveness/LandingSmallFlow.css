@@ -44,7 +44,7 @@
         height: 250px;
         img {
             width: 98%;
-            height: 120px;
+                height: 100%;
         }
         h1 {
             font-size: var(--font-generic);
@@ -109,7 +109,7 @@
             height: 250px;
             img {
                 width: 98%;
-                height: 100px;
+                height: 100%;
             }
             h1 {
                 margin-left: .2rem;
@@ -167,7 +167,7 @@
             height: 250px;
             img {
                 width: 98%;
-                height: 100px;
+                height: 100%;
             }
             h1 {
                 margin-left: .2rem;
