@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../styles/control/papers.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="icon" href="../../assets/icons/svgs/rody.svg" />
+    <title>~/Justrody.files</title>
+</head>
+<body class="old-font">
+    <header class="old-menu-bar w-full flex flex-col items-center justify-center pt-10">
+
+        <nav class="flex flex-col items-center justify-center gap-5">
+            <section>
+                <pre>
+         _.-.
+       ,'/ //\
+      /// // /)
+     /// // //|
+    /// // ///
+   /// // ///
+  (`: // ///
+   `;`: ///
+   / /:`:/
+  / /  `'
+ / /
+(_/  
+                </pre>
+            </section>
+            <section class="badges flex items-center justify-center gap-5 p-1">
+                <img src="" alt="">
+            </section>
+            <div>
+                <p><span>src/pages/papers/papername.html</span></p>
+                <ol class=" w-full p-2">
+                    <li><a href="../papers.html">back -></a></li>
+                    <li>
+                        <a href="../friends.html">Friends</a>
+                        <a href="../updates.html">Updates</a>
+                    </li>
+                </ol>
+            </div>
+        </nav>
+    </header>
+    <main id="papers-container" class="flex flex-col flex-wrap items-center justify-center mt-5">
+        <div class="flex flex-col items-center justify-center gap-5 p-5 paper">
+            <div>
+                <h1>Como criar seu servidor de minecraft</h1>
+                <p>repost: 29/08/2025 post em 20/08/2025</p>
+            </div>
+            <div class="flex flex-col gap-5">
+                <p>
+                    Este é um guia completo para criação de um servidor Minecraft moderno, incluindo proxy, sistema de login, lobby, permissões e sincronização. Seguindo este passo a passo, você terá um servidor eficiente, seguro e pronto para múltiplos sub-servidores.
+                </p>
+                <p>
+                    <strong>Instalação do Java:</strong> Antes de começar, instale o <strong>JDK 21</strong> (mais recente) e/ou <strong>Java 8</strong> se necessário. Alguns servidores/plugins antigos exigem Java 8.
+                    Configure as variáveis de ambiente <code>JAVA_HOME</code> e <code>PATH</code> para evitar problemas de inicialização.
+                    Teste a instalação com: <code>java -version</code>
+                </p>
+                <p>
+                    <strong>Configuração do Proxy:</strong> O proxy gerencia onde o jogador irá (lobby, minigames, survival, etc).
+                    <strong>Escolha do proxy:</strong> <code>BungeeCord</code> (antigo e simples), <code>Waterfall</code> (melhorado), <code>Velocity</code> (moderno e recomendado).
+                    <strong>Exemplo de comando:</strong> <code>java -Xms512M -Xmx2G -jar velocity.jar nogui</code>
+                    <strong>Configuração do proxy:</strong> Edite <code>velocity.toml</code> e configure portas e servidores internos: <code>lobby = "127.0.0.1:25566"</code>, <code>minigame = "127.0.0.1:25567"</code>
+                    Ajuste modo online/offline conforme necessidade.
+                </p>
+                <p>
+                    <strong>Sistema de Login:</strong> Para servidores offline (não originais): Instale <code>nLogin</code> no proxy. Use <code>BungeeGuard</code> para proteger conexões entre proxy e sub-servidores.
+                </p>
+                <p>
+                    <strong>Configuração do Lobby:</strong> Plugins essenciais: <code>ProtocolLib</code>, <code>Vault</code>, <code>PlaceholderAPI</code>. Permitem scoreboards, menus, economia e placeholders dinâmicos.
+                </p>
+                <p>
+                    <strong>Permissões e Sincronização:</strong> Instale <code>LuckPerms</code> em todos os servidores. Crie grupos (<code>default</code>, <code>vip</code>, <code>staff</code>) e defina permissões.
+                    Para sincronizar entre servidores, configure LuckPerms com MySQL:
+                    <code>storage-method: MySQL</code>
+                    <code>address: "localhost:3306"</code>
+                    <code>database: "luckperms"</code>
+                    <code>username: "root"</code>
+                    <code>password: "suasenha"</code>
+                    ⚠️ Use senha forte e firewall no banco.
+                </p>
+                <p>
+                    <strong>Boas práticas:</strong> Proteja portas com firewall (apenas o proxy acessível). Faça backups regulares de mundos, configs e banco de dados. Monitore desempenho com ferramentas como <code>Spark</code> ou flags de otimização. Teste antes de abrir ao público.
+                </p>
+                <p>
+                    <strong>Resumo da Estrutura:</strong>
+                    Proxy (<code>Velocity</code>) gerencia entrada dos jogadores.
+                    Lobby com plugins essenciais.
+                    Sub-servidores (<code>Minigames</code>, <code>Survival</code>) conectados via proxy.
+                    Plugins: <code>nLogin</code>, <code>BungeeGuard</code>, <code>LuckPerms</code>, <code>Vault</code>, <code>PAPI</code>, <code>ProtocolLib</code>.
+                    Banco de dados (<code>MySQL</code>) para sincronização de permissões e dados.
+                </p>
+                <p>
+                    Seguindo este guia, você terá um servidor completo e funcional, pronto para adicionar novos minigames, sistemas de economia e funcionalidades avançadas.
+                </p>
+                <div>
+                    <p> posted by: justrody</p>
+                </div>
+        </div>
+    </main>
+</body>
+</html>

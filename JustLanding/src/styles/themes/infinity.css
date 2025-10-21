@@ -1,0 +1,41 @@
+@import url(animations/infinity.css);
+   
+   :root {
+        --background: #000000;
+        --background-glass:rgba(15, 9, 7, 0.219);
+        --background-material: #0f0f0e;
+
+        --stroke: #272a35;
+        --stroke-glass:#704f3f54;
+        --stroke-material:#ffffff4f;
+
+        --text-white:#fff3e6;
+        --text-light-gray:#e0ded3;
+        --text-gray:#717188;
+        --text-black:#131417;
+        --text-blue:#977c6b;
+        --brand : #ebbc87;
+        --brand-secondary : #ca8761;
+    }
+
+    .pixel {
+        font-family: "Jersey 10", sans-serif;
+    }
+    ::-webkit-scrollbar-buttons {
+        display: none;
+    }
+    .infinity-container {
+        padding: .5rem;
+        background-color: var(--background-glass);
+        border-bottom: 4px solid var(--stroke-glass);   
+
+    }
+.glassmorphism {
+    background-color: var(--background-glass);
+    border: 1px solid var(--stroke-glass);
+    padding: .4rem 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 20px rgba(17, 26, 34, 0.13);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}

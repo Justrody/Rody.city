@@ -1,0 +1,51 @@
+@media screen and (max-width: 1568px) {
+    body {
+    background-color: var(--background);
+    }
+    nav {
+        border-radius: 1rem;
+        min-width: 100%;
+        border: 1px solid var(--stroke-glass);
+    }
+#papers-container {
+    .paper {
+        width: 90%;
+    }
+}
+    .badges {
+        img {
+            width: 120px;
+        }
+    }
+
+
+    #terminal {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+         font-size: var(--font-sm);
+        p {
+             font-size: var(--font-sm);
+            color: var(--text-light-gray);
+        }
+        b {
+            font-size: var(--font-sm);
+        }
+        color: var(--text-light-gray);
+        span{
+            color: var(--text-white);
+        }
+        pre {
+          color: var(--text-white);
+        }
+        .config-line {
+            display: flex;
+            gap: .5rem;
+        }
+        .fetch-info {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

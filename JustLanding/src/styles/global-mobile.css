@@ -1,0 +1,11 @@
+@media screen and (max-width: 968px) {
+    :root {
+        --font-brand: 7rem;
+        --font-xl: 3rem;
+        --font-lg: 1.5rem;
+        --font-md: 1.2rem;
+        --font-default: .8rem;
+        --font-sm: .8rem;
+        --font-xs: .6em;
+    } 
+}

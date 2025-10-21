@@ -1,0 +1,16 @@
+:root {
+
+    --font-brand: 14rem;
+    --font-xl: 6rem;
+    --font-lg: 3rem;
+    --font-md: 1.5rem;
+    --font-default: 1.2rem;
+    --font-sm: 1rem;
+    --font-xs: .7em;
+
+} 
+.no-select {
+  -webkit-user-select: none; /* dafari */
+  -ms-user-select: none;     /* edge */
+  user-select: none;         
+}

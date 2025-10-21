@@ -1,0 +1,59 @@
+@media screen and (max-width: 1568px) {
+    :root {
+        --font-brand: 7rem;
+        --font-xl: 3rem;
+        --font-lg: 1.5rem;
+        --font-md: 1.2rem;
+        --font-default: .8rem;
+        --font-sm: .8rem;
+        --font-xs: .6em;
+    } 
+    .mobile-text {
+        text-align: center;
+    }
+    .flex-mobile {
+        flex-wrap: wrap;
+    }
+        #about {
+        h1 {
+            font-size: var(--font-xl);
+        }
+    }
+    #tech {
+            animation: smooth-show 1s ease;
+        h1 {
+            font-size: var(--font-lg);
+            color: var(--text-white);
+            font-weight: bolder;
+        }
+        p {
+            font-weight: lighter;
+            font-size: var(--font-sm);
+            color: var(--text-light-gray);
+        }
+        .card {
+            animation: pop-in 2s ease;
+            padding: .8rem;
+            transition: .2s;
+        }
+    }
+    .bio-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        img {
+            border: 1px solid var(--stroke-glass);
+            z-index: 10;
+            width: 100%;
+            height: 180px;
+            margin-bottom: -8.5rem;
+            border-radius: 2rem;
+            object-fit: cover;
+        }
+        div {
+            flex-direction: column;
+            line-height: .9;
+            z-index: 20;
+        }
+    }
+}

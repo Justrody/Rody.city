@@ -1,0 +1,64 @@
+body {
+    background-image: url("../../assets/backgrounds/backgrounds/linktree.gif");
+    background-size: cover;
+}
+
+.linktree-card {
+    text-align: center;
+    animation: pop-in 0.5s ease;
+    h1 {
+        font-weight: bolder;
+        font-size: var(--font-lg);
+        color: var(--only-white);
+    }
+    p {
+        font-size: var(--font-normal);
+        color: var(--only-gray);
+    }
+    section {
+        transition: .2s;
+        margin: .5rem;
+        box-shadow: 0 0 20px var(--only-space);
+    }
+    .linktree-link {
+        transition: .2s;
+        animation: pop-in 0.5s ease;
+        padding: .5rem 1rem;
+        margin: .5rem;
+        border-radius: 1rem;
+        background-color: var(--background-material);
+        color: var(--text-black);
+        img {
+            width: 1.3rem;
+            height: 1.2rem;
+            border-radius: .5rem;
+        }
+    }
+    .linktree-link:hover {
+        box-shadow: 0 0 30px var(--only-space);
+        color: var(--only-white);
+        background-color: var(--only-black);
+        img {
+            filter: invert(100);
+        }
+    }
+    .banner {
+        height: 120px;
+        width: 100%;
+        img {
+            width: 100%;
+            height: 100%;
+            border: 1px solid var(--stroke-glass);
+            border-radius: 1rem;
+        }
+    }
+    .spotfy {
+        height: 450px;
+        iframe {
+            height: 400px;
+            margin-top: .3rem;
+            border-radius: 1rem;
+            width: 100%;
+        }
+    }
+}

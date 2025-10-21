@@ -1,0 +1,65 @@
+    :root {
+        --background: #000000;
+        --background-glass:#0000;
+        --background-material: #0000;
+
+        --stroke: #0000;
+        --stroke-glass:#d5d4e06b;
+        --stroke-material:#0000;
+        
+        --badge-background: #000;
+        --badge-stroke: #0000;
+
+        --asc-background: #0000;
+        --asc-stroke: #0000;
+
+        --text-white:#f3f2ff;
+        --text-light-gray:#aeb1c7d2;
+        --text-gray:#0000;
+        --text-black:#0000;
+    }
+
+.old-font {
+    font-family: "Silkscreen", sans-serif;
+}
+.old-menu-bar {
+    pre {
+        font-family: "Silkscreen", sans-serif;
+        font-size: var(--font-xs);
+        color: var(--text-white);
+        line-height: .9;
+        text-align: left;
+        padding: 1rem;
+    }
+    nav {
+        border-radius: 1rem;
+        min-width: 30%;
+        border: 1px solid var(--stroke-glass);
+    }
+    li {
+        display: flex;
+        gap: 1rem;
+    }
+    div {
+        padding: .5rem .2rem;
+        border-radius: .3rem;
+        width: 100%;
+        ol {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: var(--font-xs);
+        }
+        p {
+            border-top: 1px solid var(--stroke-glass);
+            font-size: var(--font-xs);
+            color: var(--text-light-gray);
+            border-bottom: 1px solid var(--stroke-glass);
+        }
+        a {
+            color: var(--text-white);
+            text-decoration: underline;
+            transition: .2s;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+@keyframes down-from-top {
+     0%,25% {
+         transform: translateY(-100%);
+         opacity: 0;
+         padding: .8rem 0;
+     }
+     25%, 55% {
+            transform: translateY(20%);
+            opacity: 1;
+            padding: .8rem 3rem;
+     }
+     55%, 100% {
+         transform: translateY(0);
+         opacity: 1;
+         padding: .8rem 2rem;
+     }
+    
+}
+@keyframes rolling {
+    from {
+        transform: translateX(0px);
+    }
+    to {
+        transform: translateX(-4988px);
+    }
+}
+@keyframes pop-in {
+    0%, 30%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    30%, 60% {
+        transform: scale(1.1);
+        opacity: 1;
+    }
+    60%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    
+}
+@keyframes smooth-show {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+    
+}
+@keyframes modaldown {
+    0%, 25% {
+        padding: 0;
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    25%, 55% {
+        padding: 2rem 1rem;
+        transform: translateY(10%);
+        opacity: 1;
+    }
+    55%, 76% {
+        padding: 1rem 2rem;
+        transform: translateY(0);
+        opacity: 1;
+    }
+    80%, 100% {
+        padding: .8rem 2rem;
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
