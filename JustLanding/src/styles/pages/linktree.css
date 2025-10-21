@@ -53,12 +53,13 @@ body {
         }
     }
     .spotfy {
-        height: 450px;
+        height: 210px;
         iframe {
-            height: 400px;
+            height: 200px;
             margin-top: .3rem;
             border-radius: 1rem;
             width: 100%;
         }
     }
+
 }
