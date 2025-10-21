@@ -1,0 +1,231 @@
+
+#introduction {
+    animation:  show-texts-reloadpage 2s ease;
+
+    h1 {
+        position: absolute;
+        font-size: var(--font-xxl);
+        font-family: 'Bionix', sans-serif;
+        background: linear-gradient(to right, #ff4e4e, #ffffff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        line-height: 1.2;
+    }   
+    h2 {
+        color: var(--light-text);
+        font-weight: bolder;
+        font-size: var(--font-md); 
+        z-index: 20;
+        position: absolute;
+    }
+    .tag {
+        position: absolute;
+        z-index: 10;
+        width: 210px;
+        padding: .2rem;
+        border: 1px solid var(--stroke-hilight);
+        font-size: var(--font-sm);
+        color: var(--stroke-hilight);
+    }
+    p {
+        padding: 3rem;
+        font-size: var(--font-sm);
+        color: var(--gray-text);
+    }
+    h3 {
+        margin: 1rem;
+        position: absolute;
+        z-index: 10;
+        font-size: var(--font-lg);
+        font-family: "Permanent Marker", cursive;
+        color: #00000000;  
+        margin: 0;
+        -webkit-text-stroke: 1px var(--stroke-hilight);
+        line-height: .7;
+    }
+    .bori-banner {
+        margin-top: -24rem;
+        margin-bottom: -35rem;
+        width: 800px;
+        height: 800px;
+    } 
+    .container-title {
+        text-align: left;
+    } 
+}
+#tools-container {
+    animation:  show-texts-reloadpage 2s ease;
+
+    h1 {
+        position: absolute;
+        font-size: var(--font-xxl);
+        font-family: 'Bionix', sans-serif;
+        background: linear-gradient(to right, #ff4e4e, #ffffff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent; 
+        line-height: 1.2;
+    }   
+    h2 {
+        color: var(--light-text);
+        font-weight: bolder;
+        font-size: var(--font-md); 
+        z-index: 20;
+        position: absolute;
+    }
+    .tag {
+        position: absolute;
+        z-index: 10;
+        width: 240px;
+        padding: .4rem;
+        border: 1px solid var(--stroke-hilight);
+        font-size: var(--font-sm);
+        color: var(--stroke-hilight);
+    }
+    p {
+        padding: 3rem;
+        font-size: var(--font-sm);
+        color: var(--gray-text);
+    }
+    h3 {
+        margin: 1rem;
+        position: absolute;
+        z-index: 10;
+        font-size: var(--font-lg);
+        font-family: "Permanent Marker", cursive;
+        color: #00000000;  
+        margin: 0;
+        -webkit-text-stroke: 1px var(--stroke-hilight);
+        line-height: .7;
+    } 
+    .categoryes {
+        padding: 5rem;
+        width: 80%;
+    }
+    .container-title {
+        text-align: left;
+    } 
+    .grow-1 {
+        transform: scale(1.1);
+    }
+    .card {
+        border: 1px solid var(--stroke-glass);
+        background-color: var( --background-glass);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(6px);
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 350px;
+        height: 500px;
+        transition: .2s;
+        h4 {
+            font-size: var(--font-md);
+            color: var(--white-text);
+            font-weight: bolder;
+            padding: .5rem 1rem;
+            padding: 0;
+        }
+        .info-container {
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            display: flex;
+        }
+        p {
+            padding: 0;
+            font-size: var(--font-sm);
+        }
+        div {
+            padding: 1rem;
+        }
+        img {
+            object-fit: cover;
+            border-radius: 1rem;
+            margin: 1rem;
+            width: 95%;
+            height: 440px;
+        }
+        a {
+            margin: 1rem;
+            border-radius: 1rem;
+            padding: .2rem 1rem;
+            height: fit-content;
+            background-color: var(--white-text);
+            transition: .2s ease;
+        }
+        a:hover {
+            background-color: var(--stroke-hilight);
+            padding: .5rem 1.4rem;
+        }
+    }
+    .card:hover {
+        border: 1px solid var(--stroke-hilight);
+        transform: scale(1.2);
+    }
+    .card-2 {
+        border: 1px solid var(--stroke-glass);
+        background-color: var( --background-glass);
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(6px);
+        border-radius: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 380px;
+        height: 100px;
+        transition: .2s;
+        h4 {
+            font-size: var(--font-md);
+            color: var(--white-text);
+            font-weight: bolder;
+            padding: .5rem 1rem;
+            padding: 0;
+        }
+        .info-container {
+            align-items: center;
+            width: 100%;
+            justify-content: space-between;
+            display: flex;
+        }
+        p {
+            padding: 0;
+            font-size: var(--font-sm);
+        }
+        div {
+            padding: .2rem;
+        }
+        img {
+            object-fit: cover;
+            border-radius: 1rem;
+            margin: .4rem;
+            width: 4rem;
+            height: 4rem;
+        }
+        a {
+            margin: 1rem;
+            border-radius: 1rem;
+            padding: .2rem 1rem;
+            height: fit-content;
+            background-color: var(--white-text);
+            transition: .2s ease;
+        }
+        a:hover {
+            background-color: var(--stroke-hilight);
+            padding: .5rem 1.4rem;
+        }
+    }
+    .card-2:hover {
+        border: 1px solid var(--stroke-hilight);
+        transform: scale(1.05);
+    }
+}
+footer {
+    border: 1px solid var(--stroke-glass);
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(6px);
+    color: var(--white-text);
+}

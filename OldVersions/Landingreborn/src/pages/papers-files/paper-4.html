@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.cdnfonts.com/css/bionix" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.cdnfonts.com/css/proggy-tiny" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../../styles/papers.css">
+
+    <link rel="icon" href="../../assets/icons/rd 1(1).svg" />
+
+    <title>[Ui/UX design]</title>
+</head>
+<body class="papers-page pixel">
+        <header class="asc-bar w-full">
+            <nav>
+                
+                <div class="flex items-center justify-between border-b">
+                    <p>src/pages/papers/minecraft-servers</p>
+                    <p>- □ x </p>
+                </div>
+                <div class="flex gap-4 w-full items-center justify-between mb-2 mt-2">
+                    <div>
+                          <a href="../papers.html">[~/back]</a>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+    <main>
+        <h1>
+            Minecraft Server: Guia passo a passo
+        </h1>
+        <section class="shadow-md border border-gray-200/20 max-w-2xl">
+            <p>
+                <strong>Atualizado em: 30/08/2025</strong>  
+                <br><br>
+                Este é um guia completo para criação de um servidor Minecraft moderno, incluindo proxy, sistema de login, lobby, permissões e sincronização. Seguindo este passo a passo, você terá um servidor eficiente, seguro e pronto para múltiplos sub-servidores.
+                <br><br>
+
+                <strong>1. Instalação do Java:</strong>  
+                Antes de começar, instale o **JDK 21** (mais recente) e/ou **Java 8** se necessário. Alguns servidores/plugins antigos exigem Java 8.  
+                - Configure as variáveis de ambiente (`JAVA_HOME` e `PATH`) para evitar problemas de inicialização.  
+                - Teste a instalação com: <code>java -version</code>  
+                <br><br>
+
+                <strong>2. Configuração do Proxy:</strong>  
+                O proxy gerencia onde o jogador irá (lobby, minigames, survival, etc).  
+                <br><br>
+                -<strong>2.1 Escolha do proxy:</strong>  
+                - BungeeCord → antigo e simples.  
+                - Waterfall → versão melhorada do BungeeCord.  
+                - Velocity → moderno, eficiente e recomendado.  
+                <br><br>
+                -<strong>2.2 Criando start.bat (Windows):</strong>  
+                <br>
+                @echo off
+                title SeuProxy
+                java -Xms512M -Xmx2G -jar velocity.jar nogui
+                pause
+                <br><br>
+                    -<strong>2.3 Configuração do proxy:</strong>
+                    Abra o velocity.toml e configure portas e servidores internos:
+
+                [servers]
+                lobby = "127.0.0.1:25566"
+                minigame = "127.0.0.1:25567"
+
+                Ajuste também modo online/offline conforme necessidade.
+                <br><br>
+
+                <strong>3. Sistema de Login:</strong>
+                Para servidores offline (não originais):
+
+                    Instale nLogin no proxy.
+
+                    Use BungeeGuard para proteger conexões entre proxy e sub-servidores.
+                    <br><br>
+
+                <strong>4. Configuração do Lobby:</strong>
+                Plugins essenciais:
+
+                    ProtocolLib
+
+                    Vault
+
+                    PlaceholderAPI (PAPI)
+
+                Esses plugins permitem adicionar scoreboards, menus, economia e placeholders dinâmicos.
+                <br><br>
+
+                <strong>5. Permissões e Sincronização:</strong>
+
+                    Instale LuckPerms em todos os servidores.
+
+                    Crie grupos (default, vip, staff) e defina permissões.
+
+                    Para sincronizar entre servidores, configure o LuckPerms com MySQL:
+
+                storage-method: MySQL
+                data:
+                address: "localhost:3306"
+                database: "luckperms"
+                username: "root"
+                password: "suasenha"
+
+                ⚠️ Use senha forte e firewall no banco.
+                <br><br>
+
+                <strong>6. Boas práticas:</strong>
+
+                    Proteja portas com firewall (apenas o proxy acessível).
+
+                    Faça backups regulares de mundos, configs e banco de dados.
+
+                    Monitore desempenho com ferramentas como Spark ou flags de otimização.
+
+                    Teste antes de abrir ao público.
+                    <br><br>
+
+                <strong>Resumo da Estrutura:</strong>
+
+                    Proxy (Velocity) → gerencia entrada dos jogadores.
+
+                    Lobby → ponto inicial com plugins essenciais.
+
+                    Sub-servidores (Minigames, Survival) → conectados via proxy.
+
+                    Plugins → nLogin, BungeeGuard, LuckPerms, Vault, PAPI, ProtocolLib.
+
+                    Banco de dados (MySQL) → sincronização de permissões e dados.
+                    <br><br>
+
+                Seguindo este guia, você terá um servidor completo e funcional, pronto para adicionar novos minigames, sistemas de economia e funcionalidades avançadas.
+                <br><br>
+            </p>
+        </section>
+
+        <div>
+
+        </div>
+    </main>
+
+</body>
+</html>

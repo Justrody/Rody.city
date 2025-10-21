@@ -1,0 +1,46 @@
+@import url(pages/tools.css);
+@import url(pages/navigation.css);
+@import url(pages/animations.css);
+@import url(pages/responsiveness/pages/toolsFlow.css);
+
+:root {
+    /*fonts*/
+    --font-xxl: 18rem ; 
+    --font-xl: 6rem ;
+    --font-lg: 3rem ;
+    --font-md: 1.5rem;
+    --font-generic: 1.2rem;
+    --font-sm: 1rem;
+    --font-smm: .8rem ;
+
+    /*backgrounds*/
+    --background: #000000;
+    --stroke: #16161a;
+
+    --background-glass: #11111600;
+    --stroke-glass: #afb2cc17 ;
+
+    --bg-card: rgb(14, 14, 17);
+    --stroke-card: rgb(16, 16, 20);
+
+    --brand-color: #fcfcfc;
+    --brand-color-glass: rgba(255, 255, 255, 0.466);
+
+    --hilight-text: #d8faff;
+    --stroke-hilight: rgb(255, 62, 62);
+
+    /*texts*/
+    --always-white: #ffffff;
+    --white-text: #f3f2fa;
+    --dark-text: #19191B;
+    --gray-text: #a0a6c9;
+    --light-gray-text: #dee0e6;
+
+    --light-text: #f0f0f0;
+    --glass-light-text: #f4f4ffa8;
+    --glass-dark-text: #0a0a0ea1;
+
+}
+body {
+    background-color: var(--background);
+}
