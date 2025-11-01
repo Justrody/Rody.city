@@ -18,8 +18,8 @@
         pre {
             font-size: var(--font-xs);
             line-height: 1.1;
-            color: var(--text-white);
-            opacity: .8;
+            color: var(--text-light-gray);
+            opacity: .6;
             font-weight: bolder;
         }
         .social-media {
@@ -58,11 +58,15 @@
 
     }
     #about {
+        margin-top: 0rem;
         animation: pop-in 2s ease;
         h1 {
             font-weight: bolder;
             font-size: var(--font-lg);
             color: var(--text-white);
+        }
+        h2 {
+            padding:  1rem;
         }
         p {
             font-size: var(--font-sm);
@@ -144,5 +148,8 @@
 
     .open-animation {
         animation: landing-open 1.5s ease;
+    }
+    .text-mobile {
+        text-align: center;
     }
 }

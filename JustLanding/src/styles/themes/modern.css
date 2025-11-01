@@ -11,12 +11,12 @@
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --background: #000000;
+        --background: #020202;
         --background-glass:#00000000;
         --background-material: #ffffff;
 
         --stroke: #0F0D11;
-        --stroke-glass:#47464e54;
+        --stroke-glass:#47464e2c;
         --stroke-material:#ffffff4f;
 
         --text-white:#ffffff;
@@ -94,6 +94,9 @@
 .geist {
      font-family: "Geist", sans-serif;
 }
+.balta {
+            font-family: "Balthazar", serif;
+}
 .archivo {
   font-family: "Archivo Black", sans-serif;
 }
@@ -115,16 +118,23 @@
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
 }
+nav {
+    width: 80%;
+}
 .navigation {
-    animation: down-from-top 1.5s ease;
-    transition: .2s;
-    background-color: var(--background-glass);
-    border: 1px solid var(--stroke-glass);
-    padding: .8rem 2rem;
+
     border-radius: 2rem;
-    box-shadow: 0 4px 20px rgba(85, 124, 158, 0.13);
+    box-shadow: 0 4px 20px rgba(17, 26, 34, 0.13);
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
+    font-family: "Balthazar", serif;
+    padding: .8rem 2rem;
+    border-radius: 2rem;
+    .separator {
+        width: 1px;
+        height: 20px;
+        background-color: var(--stroke-glass);
+    }
     .nav-brand {
         font-size: var(--font-md);
         display: flex;
@@ -145,36 +155,15 @@
         opacity: 1;
     }
     .nav-btn {
+        margin: .5rem;
         font-size: var(--font-default);
-        border-radius: 2rem;
-        padding: .5rem 1rem;
         color: var(--text-white);
-        font-weight: bold;
-        background-color: #0000;
+        border-bottom: 1px solid #00000000;
         transition: .2s;
     }
     .nav-btn:hover {
-        background-color: var(--text-white);
-        color: var(--text-black);
-        padding: .5rem 2rem;
-        img {
-            filter: invert(100);
-        }
-    }
-}
-.navigation:hover {
-    transform: scale(1.1);
-    .nav-btn {
-        color: var(--text-light-gray);
-        img {
-            opacity: .5;
-        }
-    }
-    .nav-brand {
-        opacity: .5;
-    }
-    .nav-brand:hover {
-        opacity: 1;
+        border-bottom: 1px solid var(--text-white);
+        color: var(--text-white);
     }
 }
 #navbar-modal-menu {
